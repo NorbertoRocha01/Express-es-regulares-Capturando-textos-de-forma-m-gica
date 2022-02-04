@@ -3,3 +3,29 @@
 https://www.youtube.com/watch?v=rejqIp7ExXA&list=PLbIBj8vQhvm0Yfx1JMCEOM-BB-WOCOUE1
 
 
+Match  -->> Localiza dados
+Replace --> Troca dados
+
+
+----------------------------
+
+Exemplo com ancora ^
+
+   Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+   Sabendo que o erro sempre começa com a expressão Caused by:, faça uma regex que capture-o.
+
+   ^Caused by:.*
+
+------------
+
+
+    Qual das regex abaixo capturaria exatamente as strings de data que seguem o modelo: Data: dia/mes/ano ou Data:dia/mes/ano?
+
+    Alvos: Data: 02/09/1964 ou Data:02/09/1964
+
+    ^Data:[\s]?[0-9]{2}\/[0-9]{2}\/[0-9]{4}$
+
+
+----------------------------
+
