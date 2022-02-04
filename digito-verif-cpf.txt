@@ -1,0 +1,10 @@
+Caso queria saber mais sobre o cálculo módulo 11 segue um link de uma página externa que traz um exemplo:
+
+http://www.goulart.pro.br/cbasico/Calculo_dv.htm
+
+Segue também um link de um mini-calculador, onde podemos usar o cálculo modulo 11:
+
+http://www.cjdinfo.com.br/utilitario-calculo-digito-modulo-11
+
+Para o CPF hipotético 111.222.333 o digito verificador real é 96.
+
